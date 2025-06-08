@@ -1,0 +1,827 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Najib & Iska Wedding</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Patrick Hand -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Sacramento -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Work Sans -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Simply Countdown -->
+    <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css" />
+    <script src="countdown/simplyCountdown.min.js"></script>
+
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <section
+      id="hero"
+      class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <!-- <div class="tema">
+        <button class="tema0" onclick="change0()">Tema 0</button>
+        <button class="tema1" onclick="change1()">Tema 1</button>
+        <button class="tema2" onclick="change2()">Tema 2</button>
+      </div> -->
+      <main>
+        <h3>Minggu, 12 Oktober 2025</h3>
+        <p>Hello, We Are Getting Married</p>
+        <h1 class="mb-5">Najib & Iska</h1>
+        <!-- <p>Akan melangsungkan pernikahan dalam:</p> -->
+
+        <!-- <div class="simply-countdown"></div> -->
+
+        <h4>Dear Nama</h4>
+        <h4><span></span></h4>
+        <a href="#undangan" class="btn btn-lg mt-4" onclick="enableScroll()"
+          >Lihat Undangan</a
+        >
+      </main>
+    </section>
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">Najib & Iska</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Nais</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>
+              Diselenggarakan pada 12 Oktober 2025 di Bangkalan, Jawa Timur
+            </h3>
+            <p>
+              Oleh karena itu, dengan segala hormat, kami bermaksud untuk
+              mengundang Bapak/Ibu, Saudara/i, untuk hadir pada acara pernikahan
+              kami.
+            </p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6 mb-5">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Muhammad Najib Kamal, S. Kom</h3>
+
+                <p>
+                  Putra dari Bapak (Alm) Muchamad Djafar <br />
+                  dan <br />
+                  Ibu Arumi
+                </p>
+              </div>
+              <div class="col-4">
+                <img src="img/a" class="img-responsive rounded-circle" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mb-5">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/" class="img-responsive rounded-circle" alt="" />
+              </div>
+              <div class="col-8">
+                <h3>Iskarimawati Nor Rohmah, S. Ak.</h3>
+
+                <p>
+                  Putri dari Bapak (Alm) Moh. Hasan <br />
+                  dan <br />
+                  Ibu Siti Maryam
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">
+              Alamat: Belakang SDN 1 Modung, Bangkalan, Jawa TImur
+            </p>
+          </div>
+
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light mb-5">
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>08.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 12 oKTOBER 2025</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">📍 Modung</div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-clock d-block"></i>
+                    <span>13.00 - Selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calendar3 d-block"></i>
+                    <span>Minggu, 12 Oktober 2025</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">📍 Modung, Jawa Timur</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container col-2 mt-5">
+          <div class="card text-center text-bg-light">
+            <a
+              href="https://maps.app.goo.gl/RHeJJG29eGBFUoGc7"
+              target="_blank"
+              class="btn btn-secondary btn-sm"
+              >Open Maps</a
+            >
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15833.920810168156!2d112.93277528496182!3d-7.185917045802938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f5854aa2e73f%3A0x3ebdb86b95912d1f!2sModung%20Timur%2C%20Modung%2C%20Kec.%20Modung%2C%20Kabupaten%20Bangkalan%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1722014550924!5m2!1sid!2sid"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="mt-4"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="story">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Cerita Kami</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
+              blanditiis, modi quas ex officia non?
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <ul class="timeline">
+              <li>
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/IMG-20240715-WA0020.jpg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>First met</h3>
+                    <span>23 Desember 2017</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                      Debitis ipsa, numquam nesciunt quam consectetur commodi?
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/IMG-20240715-WA0022.jpg)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Dating</h3>
+                    <span>22 Februari 2018</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Architecto deserunt atque exercitationem quibusdam, vero
+                      necessitatibus, assumenda cumque suscipit eos inventore
+                      odio libero?
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/gallery/engagement/B.JPG)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Engagement</h3>
+                    <span>12 Oktober 2025</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Architecto deserunt atque exercitationem quibusdam, vero
+                      necessitatibus, assumenda cumque suscipit eos inventore
+                      odio libero?
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="timeline-inverted">
+                <div
+                  class="timeline-image"
+                  style="background-image: url(img/gallery/engagement/A.JPG)"
+                ></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3>Wedding</h3>
+                    <span>12 Oktober 2025</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Architecto deserunt atque exercitationem quibusdam, vero
+                      necessitatibus, assumenda cumque suscipit eos inventore
+                      odio libero?
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Gallery Foto</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis, incidunt!
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="row row-cols-lg-4 row-cols-md-3 row-cols-sm-2 row-cols-1 justify-content-center"
+        >
+          <div class="col mt-3">
+            <a
+              href="img/gallery/studio/1.jpg"
+              data-toggle="lightbox"
+              data-caption="This describes the image"
+              data-gallery="my-gallery"
+            >
+              <img
+                src="img/gallery/kartun/eng01.jpg"
+                alt=""
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/studio/2.jpg"
+              data-toggle="lightbox"
+              data-caption="This describes the image"
+              data-gallery="my-gallery"
+            >
+              <img
+                src="img/gallery/kartun/eng02.jpg"
+                alt=""
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+          <div class="col mt-3">
+            <a
+              href="img/gallery/studio/3.jpg"
+              data-toggle="lightbox"
+              data-caption="This describes the image"
+              data-gallery="my-gallery"
+            >
+              <img
+                src="img/gallery/kartun/eng03.jpg"
+                alt=""
+                class="img-fluid w-100 rounded"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="guest-book" class="guest-book">
+      <div class="container">
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Konfirmasi Kehadiran</h2>
+            <p class="alamat">
+              Isi Form di bawah ini untuk melakukan konfirmasi kehadiran.
+            </p>
+          </div>
+        </div>
+
+        <form
+          class="row row-cols-md-auto g-3 align-items-center justify-content-center"
+          id="my-form"
+          method="POST"
+          action="https://script.google.com/macros/s/AKfycbz8VMEITj7aAwm8vGYOXw0XlvqktYdQpcXwvR_kimgEIy4rMm0bnubkaogI8iUWP4I3cw/exec"
+        >
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="nama" class="form-label">Nama</label>
+              <input type="text" class="form-control" id="nama" name="nama" />
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Jumlah</label>
+              <input
+                type="number"
+                class="form-control"
+                id="jumlah"
+                name="jumlah"
+                length="1"
+                value="1"
+              />
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div class="mb-3">
+              <label for="jumlah" class="form-label">Konfirmasi</label>
+              <select name="status" id="status" class="form-select">
+                <option selected>Pilih salah satu</option>
+                <option value="Hadir">Hadir</option>
+                <option value="Tidak">Tidak Hadir</option>
+                <option value="Mungkin">Tidak Pasti</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-12" style="margin-top: 35px">
+            <button class="btn btn-primary">Kirim</button>
+          </div>
+        </form>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-7">
+            <div id="disqus_thread"></div>
+            <script>
+              /**
+               *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+               *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+              /*
+              var disqus_config = function () {
+              this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+              this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+              };
+              */
+              (function () {
+                // DON'T EDIT BELOW THIS LINE
+                var d = document,
+                  s = d.createElement("script");
+                s.src = "https://muhammad-najib-kamal.disqus.com/embed.js";
+                s.setAttribute("data-timestamp", +new Date());
+                (d.head || d.body).appendChild(s);
+              })();
+            </script>
+            <noscript
+              >Please enable JavaScript to view the
+              <a href="https://disqus.com/?ref_noscript"
+                >comments powered by Disqus.</a
+              ></noscript
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gifts" class="gifts">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Angpao Digital</h2>
+            <p class="alamat">
+              Jika memberi adalah tanda terima kasih, anda dapat memberikan
+              hadiah secara cashless
+            </p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-sm-5">
+            <ul class="mb-3 list-group align-items-center">
+              <li class="gift col-7 list-group-item font">
+                <div class="py-3 fw-bold text-end">BRI</div>
+                <small class="my-5">Nama</small>
+                <div class="mb-3">Iskarimawati Nor Rohmah</div>
+                <small class="my-5">Nomor Rekening</small>
+                <div class="">6104 0102 5406 534</div>
+                <img src="img/" alt="" class="img-thumbnail" width="250" />
+              </li>
+            </ul>
+            <ul class="mb-3 list-group align-items-center">
+              <li class="gift col-7 list-group-item font">
+                <div class="py-3 fw-bold text-end">Seabank</div>
+                <small class="my-5">Nama</small>
+                <div class="mb-3">Iskarimawati Nor Rohmah</div>
+                <small class="my-5">Nomor Rekening</small>
+                <div class="">6104 0102 5406 534</div>
+                <img src="img/" alt="" class="img-thumbnail" width="250" />
+              </li>
+            </ul>
+            <ul class="mb-3 list-group align-items-center">
+              <li class="gift col-7 list-group-item font">
+                <div class="py-3 fw-bold text-end">Dana</div>
+                <small class="my-5">Nama</small>
+                <div class="mb-3">Iskarimawati Nor Rohmah</div>
+                <small class="my-5">Nomor Dana</small>
+                <div class="">082334181456</div>
+                <img src="img/" alt="" class="img-thumbnail" width="250" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <ul class="mb-3 list-group align-items-center">
+          <li class="gift col-7 list-group-item font">
+            <div class="py-3 fw-bold text-end">Gopay</div>
+            <small class="my-5">Nama</small>
+            <div class="mb-3">Iskarimawati Nor Rohmah</div>
+            <small class="my-5">Nomor Gopay</small>
+            <div class="">082334181456</div>
+            <img src="img/" alt="" class="img-thumbnail" width="250" />
+          </li>
+        </ul>
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Wedding Gift</h2>
+            <p class="alamat">
+              Restu dan doa dari anda adalah anugerah yang sangat berarti.
+              Namun, jika memberi adalah ungkapan kasih sayang anda, maka kami
+              akan menerima dengan senang hati.
+            </p>
+          </div>
+
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Alamat</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-gift d-block"></i>
+                    <span>Iskarimawati Nor Rohmah</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-house-door d-block"></i>
+                    Belakang SDN 1 Modung, Bangkalan, Jawa TImur
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">
+                <i class="bi bi-whatsapp"></i>
+                <span>082334181456</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="thanks"
+      class="thanks w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center"
+    >
+      >
+      <main>
+        <img
+          class="rounded border-primary mx-auto d-block mb-5"
+          width="25%"
+          src="img/gallery/kartun/eng01.jpg"
+          alt=""
+        />
+        <h4 class="mb-5">
+          Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila
+          Bapak/Ibu/saudara/i berkenan hadir dan memberikan doa restu kepada
+          kami
+        </h4>
+        <h3>Kami yang Berbahagia.</h3>
+        <h1 class="mt-5">Najib & Iska</h1>
+      </main>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <small class="block"
+              >&copy; 2025 Najib & Iska. All Right Reserved</small
+            >
+            <small class="block"
+              >Design by
+              <a href="https://www.instagram.com/m.najibkamal"
+                >Muhammad Najib Kamal</a
+              ></small
+            >
+
+            <ul class="mt-3">
+              <li>
+                <a href="https://www.instagram.com/m.najibkamal"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href=""><i class="bi bi-facebook"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="bi bi-twitter-x"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="bi bi-tiktok"></i></a>
+              </li>
+              <li>
+                <a href=""><i class="bi bi-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="audio-container">
+      <audio id="song" autoplay loop>
+        <source src="music/kopsekop.mp3" type="audio/mp3" />
+      </audio>
+
+      <div class="audio-icon" style="display: block">
+        <i class="bi bi-disc"></i>
+      </div>
+    </div>
+
+    <!-- ######=============================================JavaScript=============================================###### -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script>
+      const hero = document.querySelector("#hero");
+      const tema0 = document.querySelector(".tema0");
+      const tema1 = document.querySelector(".tema1");
+      const tema2 = document.querySelector(".tema2");
+
+      function change0() {
+        tema0.onclick = function () {};
+        // tema0.classList.add("btn", "btn-primary");
+        hero.classList.remove("hero1");
+        hero.classList.remove("hero2");
+        hero.classList.add("hero");
+        // hero.classList.replace("hero1", "hero");
+        // hero.className += " hero";
+        // hero.className = hero.className.replace("hero1", "");
+      }
+      function change1() {
+        tema1.onclick = function () {};
+        // tema1.classList.add("btn", "btn-danger");
+        hero.classList.remove("hero");
+        hero.classList.remove("hero2");
+        hero.classList.add("hero1");
+        // hero.classList.replace("hero", "hero1");
+        // hero.className += " hero1";
+        // hero.className = hero.className.replace("hero", "");
+      }
+
+      function change2() {
+        tema2.onclick = function () {};
+        hero.classList.remove("hero");
+        hero.classList.remove("hero1");
+        hero.classList.add("hero2");
+        // hero.classList.replace("hero", "hero2");
+      }
+    </script> -->
+
+    <script>
+      simplyCountdown(".simply-countdown", {
+        year: 2026, // required
+        month: 2, // required
+        day: 22, // required
+        hours: 8, // Default is 0 [0-23] integer
+        minutes: 0, // Default is 0 [0-59] integer
+        seconds: 0, // Default is 0 [0-59] integer
+        words: {
+          //words displayed into the countdown
+          days: { singular: "hari", plural: "hari" },
+          hours: { singular: "jam", plural: "jam" },
+          minutes: { singular: "menit", plural: "menit" },
+          seconds: { singular: "detik", plural: "detik" },
+        },
+
+        // plural: true, //use plurals
+        inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
+        inlineClass: "simply-countdown-inline", //inline css span class in case of inline = true
+        // in case of inline set to false
+        enableUtc: false,
+        onEnd: function () {
+          // your code
+          return;
+        },
+        refresh: 1000, //default refresh every 1s
+        sectionClass: "simply-section", //section css class
+        amountClass: "simply-amount", // amount css class
+        wordClass: "simply-word", // word css class
+        zeroPad: false,
+        countUp: false, // enable count up if set to true
+      });
+    </script>
+
+    <script>
+      const stickTop = document.querySelector(".sticky-top");
+      const offCanvas = document.querySelector(".offcanvas");
+
+      offCanvas.addEventListener("show.bs.offcanvas", function () {
+        stickTop.style.overflow = "visible";
+      });
+
+      offCanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickTop.style.overflow = "hidden";
+      });
+    </script>
+
+    <script>
+      const rootElement = document.querySelector(":root");
+      const audioIcon = document.querySelector(".audio-icon");
+      const icon = document.querySelector(".audio-icon i");
+      const song = document.querySelector("#song");
+
+      let isPlaying = false;
+
+      function disableScroll() {
+        scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+
+        window.onscroll = function () {
+          window.scrollTo(scrollTop, scrollLeft);
+        };
+
+        rootElement.style.scrollBehavior = "auto";
+      }
+
+      function enableScroll() {
+        window.onscroll = function () {};
+        rootElement.style.scrollBehavior = "smooth";
+        playAudio();
+      }
+
+      function playAudio() {
+        song.volume = 0.1;
+        audioIcon.style.display = "flex";
+        song.play();
+        isPlaying = true;
+      }
+
+      audioIcon.onclick = function () {
+        if (isPlaying) {
+          song.pause();
+          icon.classList.remove("bi-disc");
+          icon.classList.add("bi-pause-circle");
+        } else {
+          song.play();
+          icon.classList.add("bi-disc");
+          icon.classList.remove("bi-pause-circle");
+        }
+
+        isPlaying = !isPlaying;
+      };
+
+      // disableScroll();
+    </script>
+
+    <script>
+      window.addEventListener("load", function () {
+        const form = document.getElementById("my-form");
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          const data = new FormData(form);
+          const action = e.target.action;
+          fetch(action, {
+            method: "POST",
+            body: data,
+          }).then(() => {
+            alert("Konfirmasi Kehadiran Berhasil!");
+          });
+        });
+      });
+    </script>
+
+    <script>
+      const urlParams = new URLSearchParams(window.location.search);
+      const nama = urlParams.get("nama");
+      console.log(nama);
+
+      const namaContainer = document.querySelector(".hero h4 span");
+      namaContainer.innerText = nama;
+
+      document.querySelector("#nama").value = nama;
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+    <script
+      id="dsq-count-scr"
+      src="//muhammad-najib-kamal.disqus.com/count.js"
+      async
+    ></script>
+  </body>
+</html>

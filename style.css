@@ -11,6 +11,10 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+#sticky a:hover{
+  font-size: 50px;
+}
+
 .thanks::before {
   content: "";
   position: absolute;
@@ -206,16 +210,48 @@ body {
   color: var(--pink);
 }
 
+.story::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/images/biru-flower-bg-white.jpg);
+  background-position: top;
+  background-size: cover;
+  z-index: -1;
+}
+
+.gifts {
+  position: relative;
+  min-height: 100vh;
+}
+
+.info::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/images/blue-flower-bg-white.jpg);
+  background-position: top;
+  background-size: cover;
+  z-index: -1;
+}
+
 .info {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* .info {
   background-color: var(--bg);
   color: white;
   padding-top: 10rem;
   padding-bottom: 8rem;
-}
+} */
 
 .info .card {
-  background-color: rgba(255, 255, 255, 0.2) !important;
-  color: white !important;
+  background-color: rgb(255, 255, 255) !important;
+  /* color: white !important; */
   border: 1px solid #999;
 }
 

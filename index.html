@@ -64,7 +64,9 @@
         <a href="#home" class="btn btn-lg mt-4" onclick="enableScroll()"
           >Lihat Undangan</a
         >
+        
       </main>
+
     </section>
 
     <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">
@@ -109,6 +111,8 @@
         </div>
       </div>
     </nav>
+
+
 
     <section id="home" class="home">
       <div class="container">
@@ -549,6 +553,13 @@
       </div>
     </section>
 
+      <div id="sticky" class="">
+        <a id="menu-info" href="#info"><i class="bi bi-calendar2-event"></i></a>
+        <a id="menu-story" href="#story"><i class="bi bi-postcard-heart"></i></a>
+        <a id="menu-gallery" href="#gallery"><i class="bi bi-file-image"></i></a>
+        <a id="menu-gifts" href="#gifts"><i class="bi bi-gift"></i></a>
+      </div>
+    
     <section
       id="thanks"
       class="thanks w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center"
@@ -626,6 +637,20 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <style>
+      div.sticky {
+        position: sticky;
+        background-color: lightgray;
+        bottom: 0;
+        font-size: 33px;
+        text-align: center;
+        padding-bottom: 900;
+        background-color: rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(2px);
+      }
+    </style>
+
 
     <!-- <script>
       const hero = document.querySelector("#hero");
@@ -715,6 +740,7 @@
       const audioIcon = document.querySelector(".audio-icon");
       const icon = document.querySelector(".audio-icon i");
       const song = document.querySelector("#song");
+      const sticky = document.querySelector("#sticky");
 
       let isPlaying = false;
 
@@ -732,12 +758,13 @@
       function enableScroll() {
         window.onscroll = function () {};
         rootElement.style.scrollBehavior = "smooth";
+        sticky.classList.add("sticky");
         playAudio();
       }
 
       function playAudio() {
         song.volume = 0.1;
-        audioIcon.style.display = "flex";
+        audioIcon.style.display = "none";
         song.play();
         isPlaying = true;
       }

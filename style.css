@@ -6,6 +6,11 @@
   --w-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
 }
 
+html {
+  /* scroll-behavior: smooth agar scroll ketika klik pada navigasi menjadi halus */
+  scroll-behavior: smooth;
+}
+
 body {
   font-size: 1.2rem;
   font-family: "Work Sans", sans-serif;

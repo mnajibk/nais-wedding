@@ -606,4 +606,8 @@ footer li {
   .timeline li .timeline-panel::after {
     top: 31px;
   }
+
+  img.rounded.border-primary.mx-auto.d-block.mb-5 {
+    width: 69%;
+  }
 }
